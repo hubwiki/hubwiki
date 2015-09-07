@@ -4,4 +4,4 @@ title: About
 permalink: /about
 ---
 
-HubWiki is all about collaborating.
+Collaboration for bloggers.
