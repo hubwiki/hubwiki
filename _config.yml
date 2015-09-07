@@ -7,7 +7,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: posts/:title
 url: "http://hubwiki.co" # the base hostname & protocol for your site
-twitter_username: hubwiki
+twitter_username: 
 github_username:  hubwiki
 
 # Build settings
