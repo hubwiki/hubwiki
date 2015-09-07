@@ -1,0 +1,25 @@
+# Site settings
+# http://jekyllrb.com/docs/configuration/
+title: HubWiki
+email: # TODO: Replace with contact form
+description: > 
+  Collaborate or fork, the choice is yours
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: posts/:title
+url: "http://hubwiki.co" # the base hostname & protocol for your site
+twitter_username: hubwiki
+github_username:  hubwiki
+
+# Build settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+include: ['_pages']
+exclude: [vendor, 'Gemfile', 'Gemfile.lock', 'Rakefile']
+markdown: redcarpet # more like github - http://ajoz.github.io/2014/06/29/i-want-my-github-flavored-markdown/
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
